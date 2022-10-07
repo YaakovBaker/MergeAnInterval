@@ -5,4 +5,4 @@ The problem:
 Merge an interval into an existing set of disjoint intervals. 
 
 The Algorithm:
-Compare every interval in the set of disjoint intervals to the new interval. If they are in each other's range then take the smaller left and bigger right and create a new interval to compare agianst. Add all intervals not in the new interval(s) range into a return set. Then add the new interval to that set. My solution has constructed a new set of disjoint intervals in O(n) time.
+Compare every interval in the set of disjoint intervals to the new interval. If they are in each other's range then take the smaller left and bigger right and create a new interval to compare agianst. Add all intervals not in the new interval(s) range into a return set. Then add the new interval to that set. My solution has constructed a new set of disjoint intervals in O(n) time; The expectation was to solve this problem in O(nlogn).
